@@ -1,4 +1,9 @@
 {
+	"editor.rulers": [
+    80,
+    100,
+    130
+  ],
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": false,
 	"python.analysis.useLibraryCodeForTypes": false,

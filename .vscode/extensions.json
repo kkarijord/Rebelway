@@ -1,0 +1,13 @@
+{
+	"recommendations": [
+		"njpwerner.autodocstring",
+		"editorconfig.editorconfig",
+		"eamodio.gitlens",
+		"magicstack.magicpython",
+		"ms-python.vscode-pylance",
+		"ms-python.python",
+		"gruntfuggly.todo-tree",
+		"uctakeoff.vscode-counter",
+		"vscode-icons-team.vscode-icons"
+	]
+}
