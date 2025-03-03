@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shelfDocument>
+  <!-- This file contains definitions of shelves, toolbars, and tools.
+ It should not be hand-edited when it is being used by the application.
+ Note, that two definitions of the same element are not allowed in
+ a single file. -->
+
+  <toolshelf name="rbw" label="Rebelway">
+    <memberTool name="reload_pak_mod"/>
+    <memberTool name="batch_importer"/>
+  </toolshelf>
+
+  <tool name="reload_pak_mod" label="Reload Packages and Modules" icon="ENGINE_reset">
+    <helpText><![CDATA["""Press Alt Key and click to reload the modules."""
+]]></helpText>
+    <script scriptType="python"><![CDATA[import rbw_utils as rb
+
+rb.reload_package(kwargs)
+rb.is_clicked(kwargs)]]></script>
+  </tool>
+</shelfDocument>

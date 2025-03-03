@@ -1,0 +1,28 @@
+newmtl NonaFBXASC032ChessFBXASC032Set_TheFBXASC032ItalianFBXASC032GameFBXASC032openingSG2
+illum 4
+Kd 0.02 0.02 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.40 0.40 0.40
+Ns 220.86
+newmtl NonaFBXASC032ChessFBXASC032Set_TheFBXASC032ItalianFBXASC032GameFBXASC032openingSG3
+illum 4
+Kd 0.82 0.82 0.82
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.40 0.40 0.40
+Ns 220.86
+newmtl lambert2SG
+illum 4
+Kd 0.68 0.68 0.68
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert3SG
+illum 4
+Kd 0.04 0.04 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00

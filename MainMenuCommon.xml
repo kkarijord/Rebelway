@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mainMenu>
+  <menuBar>
+
+    <!-- Rebelway menu -->
+
+    <subMenu>
+    <label>Rebelway</label>
+
+
+    <!-- Added batch imported into the Rebelway menu
+    -->
+      <scriptItem id="h.my_python_script_code">
+        <label>Batch Importer</label>
+        <scriptCode><![CDATA[from tools import get_assets as get
+get.get_assets()]]></scriptCode>
+      </scriptItem>
+
+    <!-- Added batch imported into the Reload Package menu
+    -->
+      <scriptItem id="h.reload_package">
+        <label>Reload Package</label>
+        <scriptCode><![CDATA[import rbw_utils as rb
+
+rb.reload_package(kwargs)
+rb.is_clicked(kwargs)]]></scriptCode>
+      </scriptItem>
+    </subMenu>
+
+
+
+
+</mainMenu>

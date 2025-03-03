@@ -1,0 +1,12 @@
+{
+    "address": {
+        "city": "Oslo", 
+        "postCode": 12345, 
+        "street": "Kristine Bonnevies vei 20"
+    }, 
+    "auto_renew": false, 
+    "file_format": "hip", 
+    "license": "Core", 
+    "name": "Houdini", 
+    "user": "Kristian"
+}

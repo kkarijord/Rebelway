@@ -1,0 +1,39 @@
+{
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"python.analysis.useLibraryCodeForTypes": false,
+	"python.analysis.autoSearchPaths": false,
+	"python.analysis.typeCheckingMode": "off", // Set minimum to `basic` once hou type hinting sorts it shit out
+	"python.analysis.extraPaths": [
+		"C:/Python37/Lib/site-packages/PySide2",
+		"C:/Program Files/Side Effects Software/Houdini 20.5.445/houdini/python3.10libs",
+		"D:/GIT/qdev",
+		"S:/pipeline/qscripts/qtemplates/qtemplates-dev",
+		"S:/pipeline/qscripts/vendor/python",
+		"S:/pipeline/qscripts/qcache/qcache-dev",
+		"C:/qvisten_pipeline/packages/qcache/qcache-dev",
+		"C:/qvisten_pipeline/arnold/2022_64/mtoa_5.1.1_q002/scripts",
+		"C:/qvisten_pipeline/qshot/qshot-3.5-alpha",
+		"C:/qvisten_pipeline/qshot/qshot-4",
+		"S:/pipeline/qscripts/qpublish/qpublish-dev"
+	],
+	"python.analysis.diagnosticSeverityOverrides": {
+		"reportMissingModuleSource":"none"
+	},
+	"python.testing.unittestArgs": [
+		"-v",
+		"-s",
+		"./tests",
+		"-p",
+		"test_*.py"
+	],
+	"python.testing.pytestEnabled": false,
+	"python.testing.unittestEnabled": true,
+	"python.languageServer": "Pylance",
+	"python.analysis.diagnosticMode": "workspace",
+	"python.defaultInterpreterPath": "${env:APPDATA}\\Local\\Programs\\Python\\Python39\\python.exe",
+	"cSpell.words": [
+        "Bonnevies",
+        "Kristian"
+    ]
+}
